@@ -1,7 +1,0 @@
-sphinx==2.4.4
-git+https://github.com/italia/docs-italia-theme.git
-recommonmark
-numpydoc
-nbsphinx
-sphinx_markdown_tables
-sphinxcontrib-images

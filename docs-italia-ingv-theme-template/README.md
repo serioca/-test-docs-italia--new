@@ -1,1 +1,0 @@
-# docs-italia-ingv-theme-template
