@@ -1,0 +1,12 @@
+document:
+  name: Test Docs Italia
+  description: |
+    Test Docs Italia Description
+  tags:
+    - INGV
+    - politica dei dati
+    - database
+    - dataset
+    - ricerca scientifica
+    - metadati
+    - FAIR
