@@ -30,7 +30,7 @@ cat > "${docroot}"/index.html <<EOF
       <meta http-equiv = "refresh" content="0; url='it/'" />
    </head>
    <body>
-      <p>Please wait while you're redirected to our <a href="/it/">documentation</a>.</p>
+      <p>Please wait while you're redirected to our <a href="/it/index.html">documentation</a>.</p>
    </body>
 </html>
 EOF
