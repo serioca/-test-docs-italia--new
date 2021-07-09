@@ -31,7 +31,7 @@ jobs:
           command: |
             pwd
             ls -l
-            buildDocs.sh
+            ./buildDocs.sh
             #touch _build/.nojekyll
       - persist_to_workspace:
           root: _build
