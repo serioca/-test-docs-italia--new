@@ -11,7 +11,7 @@ Frequently Asked Questions sul portale data.ingv.it
    :Date: 05 Novembre 2020
 
 .. highlights::
-   FAQ portale dati aperti INGV
+   FAQ open data portal of INGV
 
 Q1. - Posso caricare i miei dati sul portale?
 ---------------------------------------------
