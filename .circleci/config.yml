@@ -29,8 +29,10 @@ jobs:
       - run:
           name: Use Sphinx to make the html docs
           command: |
-              buildDocs.sh
-              #touch _build/.nojekyll
+            pwd
+            ls -l
+            buildDocs.sh
+            #touch _build/.nojekyll
       - persist_to_workspace:
           root: _build
           paths: .

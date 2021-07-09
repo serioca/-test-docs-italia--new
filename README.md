@@ -1,4 +1,6 @@
-# test-docs-italia [![CircleCI](https://circleci.com/gh/INGV/test-docs-italia/tree/main.svg?style=svg)](https://circleci.com/gh/INGV/test-docs-italia/tree/main)
+# test-docs-italia [![CircleCI](https://circleci.com/gh/INGV/test-docs-italia/tree/main.svg?style=svg)](https://app.circleci.com/pipelines/github/serioca/-test-docs-italia--new?branch=master)
+
+
 
 Questo e' un progetto di test per "testare":
 - il template di Docs Italia come base
