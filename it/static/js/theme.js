@@ -416,7 +416,7 @@ require = (function r(e, n, t) {
                 module.exports = themeGlossary =
                     (($ = jQuery),
                     {
-                        $: { $url: "_static/data/glossary.json", $glossary: {}, callback: {} },
+                        $: { $url: "static/data/glossary.json", $glossary: {}, callback: {} },
                         init: function (callback) {
                             ((that = this.$).callback = callback), $.ajax({ dataType: "json", url: that.$url, success: themeGlossary.success, error: themeGlossary.error, cache: !1 });
                         },
