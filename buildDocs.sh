@@ -19,7 +19,12 @@ mkdir -p "${docroot}"/it
 mkdir -p "${docroot}"/en
 
 sphinx-build -b html it "${docroot}"/it -D language=it
+find "${docroot}"/it -type f -exec sed -i 's/_static/static/g' {} \;
+mv "${docroot}"/it/_static "${docroot}"/it/static
+
 sphinx-build -b html en "${docroot}"/en -D language=en
+find "${docroot}"/en -type f -exec sed -i 's/_static/static/g' {} \;
+mv "${docroot}"/en/_static "${docroot}"/en/static
 
 # add redirect from the docroot to our default docs language/version
 cat > "${docroot}"/index.html <<EOF

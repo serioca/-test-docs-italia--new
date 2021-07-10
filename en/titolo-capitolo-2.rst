@@ -1,4 +1,4 @@
-Capitolo 2
-==========
+Chapter 2
+=========
 
-In questo capitolo, vengono trattate ...
+In this chapter ...

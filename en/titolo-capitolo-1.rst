@@ -1,4 +1,4 @@
-Capitolo 1
-==========
+Chapter 1
+=========
 
-In questo capitolo, vengono descritte le funzioni principali ...
+In this chapter, the prinpal functions are described ...

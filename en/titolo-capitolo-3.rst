@@ -1,4 +1,4 @@
-Capitolo 3
-==========
+Chapter 3
+=========
 
-Ciao sono il capitolo numero 3 ...
+In this chapter ...
