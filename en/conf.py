@@ -40,7 +40,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
     'docs_italia_theme',
-    'sphinx_sitemap'
+    #'sphinx_sitemap'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
