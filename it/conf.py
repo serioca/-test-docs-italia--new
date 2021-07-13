@@ -73,6 +73,8 @@ latex_logo = '../docs-italia-ingv-theme-template/static/images/logo_75_transp.pn
 html_baseurl = 'docs'
 smartquotes = False
 language = "it"
+html_context = {"languages": ["it", "en"]}
+
 numfig = True
 # The master toctree document.
 master_doc = 'index'

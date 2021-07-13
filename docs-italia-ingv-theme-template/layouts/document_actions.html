@@ -41,10 +41,17 @@
   </div>
 </div>
 
-
-
   <div class="p-3 px-md-2 py-md-0 d-flex flex-wrap">
-    <a class="btn p-2 flex-grow-1 text-left" href="../{% if language == 'it' %}en{% else %}it{% endif %}/" role="button" aria-haspopup="true" aria-expanded="false">
-      <span class="align-middle" >{% if language == 'it' %}Inglese{% else %}Italian{% endif %}</span>
-    </a>
+
+    <select style="height: 30px" onchange="languageNavigator(this.value)">
+    {% for x in languages %}
+        <option value="../{{x}}/" {% if x == language %}selected{% endif %}>{{x}}</option>
+    {% endfor %}
+    </select>
+
+    <script>
+    function languageNavigator(value) {
+      window.location.assign(value);
+    }
+    </script>
   </div>
